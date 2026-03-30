@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Samy"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "GPU tracking for Plasma 6",
+        "Icon": "video-display",
+        "Id": "com.kde.xsvmyx.gputracker",
+        "Name": "GPU Monitor",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

@@ -9,7 +9,7 @@
         "Description": "GPU tracking for Plasma 6",
         "Icon": "video-display",
         "Id": "com.kde.xsvmyx.gputracker",
-        "Name": "GPU Monitor",
+        "Name": "xsvmyx GPU Tracker",
         "ServiceTypes": [
             "Plasma/Applet"
         ],

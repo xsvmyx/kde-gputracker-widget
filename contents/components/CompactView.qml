@@ -8,7 +8,8 @@ Item {
     // Définition des tailles pour le Panel Plasma
     Layout.minimumWidth: 240 // Augmenté un peu pour 3 boîtes
     Layout.maximumWidth: 350
-    Layout.minimumHeight: 32
+    Layout.minimumHeight: 28
+    
 
     RowLayout {
         anchors.fill: parent

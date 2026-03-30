@@ -5,6 +5,7 @@ import org.kde.plasma.plasmoid
 import org.kde.plasma.plasma5support as Plasma5Support
 import org.kde.plasma.core as PlasmaCore
 import "../components" as MyComponents 
+import org.kde.kirigami as Kirigami
 
 PlasmoidItem {
     id: root
@@ -145,7 +146,7 @@ PlasmoidItem {
         width: 380
         height: root.detected && root.gpuVendor === "" ? 80 : 440
 
-        color: "#1a1a1a"
+        color: Kirigami.Theme.backgroundColor
         border.color: root.borderCol
         border.width: 4
         radius: 8
